@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background:rgb(0, 0, 0) radial-gradient( circle at center, #000000 10%, #1a1a1a 40%, #333333 60%,#4d4d4d 70%, #666666 90%, #808080 100%); 
+    color:rgb(255, 255, 255);
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+

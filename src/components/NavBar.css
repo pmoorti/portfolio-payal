@@ -1,0 +1,97 @@
+#NavBar{
+    height: 5rem;
+    width: 100vw;
+    max-width:  85vw;
+    margin: 0 auto;
+    padding: 1rem 2 rem;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 3;
+}
+
+.logo{
+    object-fit: cover;
+    height: 5rem;
+    width: 4rem;
+    margin: 1rem;
+
+}
+
+
+.desktopMenuListItem{
+    margin: 1rem;
+    display: inline; /* Or 'block', depending on your layout needs */
+    text-align: center;
+
+}
+
+.desktopMenuListItem:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(204, 94, 251);
+    cursor: pointer;
+}
+
+
+.desktopMenubtn{
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.ContactImg{
+    object-fit: cover;
+    margin: 1rem;
+    
+}
+.mobMenu{
+    object-fit: cover;
+    height: 1.8rem;
+}
+.navMenu{
+    position: absolute;
+    top:4rem;
+    right: 2rem;
+    z-index:2;
+    display:flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(50,50, 50);
+    border-radius: 1rem;
+
+}
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin:0.25rem;
+    background:rgb(40,40,40);
+}
+.desktopMenuImg {
+    display: none;
+}
+@media screen and (max-width: 720px){
+    .navMenu{
+        display:flex;
+    }
+    .desktopMenu{
+       display:none; 
+    }
+    .desktopMenubtn{
+        display:none;
+        
+    }
+    .desktopMenuImg {
+        display: block;
+    }
+}
+
+
+
+
+
+
